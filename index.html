@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Web Page</title>
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .brand {
+            font-weight: bold;
+        }
+        #content {
+            padding: 1em 2em;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="brand">Henry B. Cottom</div>
+        <div>
+            <a href="#home">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="about.html">About</a>
+        </div>
+    </nav>
+    <div id="content">
+        <section id="home">
+            <h1>Welcome to the Home Page</h1>
+            <p>This is the home section.</p>
+        </section>
+    </div>
+</body>
+</html>
