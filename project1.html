@@ -22,6 +22,24 @@
         .brand {
             font-size: 1.5em;
         }
+
+        /* NEW: nav spacing + link styling */
+        nav {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        nav a:visited {
+            color: white;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
         .dropdown {
             position: relative;
             display: inline-block;
@@ -72,7 +90,7 @@
             display: block;
             max-width: 100%;
             height: auto;
-            margin: 20px 0.
+            margin: 20px 0; /* FIXED missing semicolon */
         }
         .content p {
             text-align: justify;
@@ -108,7 +126,15 @@
 <div class="content">
     <h1>Hex Bit Holder</h1>
     <img src="IMG_9238.jpg" alt="Project 1 Image">
-    <p>I love my Chapman MFG hex bit set I got in my toolkit for gunsmithing school. I wanted a permanent holder for it on my desktop. I was working at a machineshop at the time and used a spare piece of .625"x4" stock to create this bit holder. I origincally designed one in Solidworks and printed it in Prusament Orange PETG using my Prusa Mini. The angled logo design was not going to work on a HAAS MiniMill, so my good friend Jack Routon redesigned it in Fusion 360 to have the same number of holes for bits and also retaining the cool hexagonal C logo.</p>
+    <p>
+        I love my Chapman MFG hex bit set I got in my toolkit for gunsmithing school. 
+        I wanted a permanent holder for it on my desktop. I was working at a machine shop 
+        at the time and used a spare piece of .625"x4" stock to create this bit holder. 
+        I originally designed one in SolidWorks and printed it in Prusament Orange PETG 
+        using my Prusa Mini. The angled logo design was not going to work on a HAAS MiniMill, 
+        so my good friend Jack Routon redesigned it in Fusion 360 to have the same number 
+        of holes for bits while retaining the cool hexagonal C logo.
+    </p>
 </div>
 
 </body>
