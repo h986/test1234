@@ -3,52 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 2</title>
+    <title>The Workbench</title>
+
     <style>
         body {
-            background-color: white;
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
+            background-color: #f4f4f4;
         }
-        nav {
-            background-color: #333;
-            color: white;
-            padding: 1em;
+
+        header {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            padding: 15px 20px;
+            background-color: #333;
+            color: white;
         }
+
+        .brand {
+            font-size: 1.4em;
+        }
+
         nav a {
             color: white;
-            margin: 0 1em;
+            margin-left: 15px;
             text-decoration: none;
         }
+
         nav a:hover {
             text-decoration: underline;
         }
-        .brand {
-            font-weight: bold;
+
+        .content {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            background: white;
         }
-        #content {
-            padding: 1em 2em;
+
+        h1 {
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 20px auto;
+        }
+
+        p {
+            text-align: justify;
         }
     </style>
 </head>
+
 <body>
+
+<header>
+    <div class="brand">Henry B. Cottom</div>
     <nav>
-        <div class="brand">Henry B. Cottom</div>
-        <div>
-            <a href="index.html#home">Home</a>
-            <a href="projects.html">Projects</a>
-            <a href="about.html">About</a>
-        </div>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
     </nav>
-    <div id="content">
-        <section id="project3">
-            <h1>Project 3</h1>
-            <p>This is the description of Project 3.</p>
-        </section>
-    </div>
+</header>
+
+<div class="content">
+    <h1>The Workbench</h1>
+    <img src="IMG_8455.jpg" alt="The Workbench">
+    <p>
+        At the end of 2020, my roommate Sam moved out and I finally had the whole room to myself. My first order of business was to create a workbench for my room that I could use for everything, while able to support Jabba the Hutt. Initially I wanted to use a 4'x8' sheet of plywood as the main top (to skip a lot of plywood cutting), but 32 square feet was a lot of space in my bedroom. I settled on cutting the 4' x 8' sheet of plywood down to 3' x 6'. The top is actually removable and held on by screws around the edge so that it can be replaced in the event it gets too beat up from use. If I had to redo this project while still at that house in Ruston, I would have settled on a 2' x 6' bench top. The extra foot of depth was a lot and as all flat surfaces end up, it became temporary storage for a lot of things. I kepy my Prusa Mini+ 3D Printer on top and built a mount on one of the legs to hold the filament spool.
+    </p>
+</div>
+
 </body>
 </html>
